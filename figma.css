@@ -1,0 +1,610 @@
+/* Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Quicksand:wght@300;400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+
+background-color:rgb(44, 54, 100);
+color: whitesmoke;
+}
+
+
+/*navbar*/
+
+.navbar_figma {
+    padding: 70px 50px;
+}
+.navbar_figma .nav_head {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 60px;
+    color: white;
+    line-height: 1.25;
+}
+.navbar_figma .menu-bar {
+    display: flex;
+    justify-content: flex-end;
+    color: gainsboro;
+    text-align: end;
+    float: right;
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.navbar_figma .menu-bar .nav-link {
+    color: rgb(197, 192, 192);
+    padding: 10px;
+}
+.navbar_figma .menu-bar .nav-high {
+    color: white;
+}
+
+.navbar_figma .nav-extra {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.navbar_figma .nav-extra .nav-link {
+    color: rgb(197, 192, 192);
+    padding-right: 10px;
+}
+.navbar_figma .nav-extra .join-us-btn {
+    width: 120px;
+    height: 45px;
+    margin-left: 20px;
+    background-color: rgb(138, 85, 208);
+    border-radius: 5px;
+    border: 1px solid rgb(138, 85, 208);
+}
+.navbar_figma .nav-extra .nav-link-1 {
+    color: white;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 1;
+
+}
+ .navbar_figma .fas {
+    padding-left: 1px;
+    font-size: 15px;
+} 
+.navbar_figma .nav-item .nav-link.active {
+    color:  rgb(138, 85, 208) ;
+}
+
+.header-scrolled {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(44, 54, 100) !important;
+    box-shadow: 0 4px 6px 0 rgba(12,0,45 blue,0.05 alpha);
+}
+
+/*Home section*/
+.home_figma {
+    display: flex;
+    padding-bottom: 100px;
+   
+}
+.home_figma .invite-desc {
+    margin-top: 125px;
+}
+.home_figma .home_subtitle {
+    font-size: 16px;
+    padding: 0 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    
+}
+.home_figma .home_title {
+    font-size: 50px;
+    padding: 20px 40px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    width: 600px;
+}
+.home_figma .home_text {
+    font-size: 20px;
+    padding: 0 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 400px;
+    color: rgb(197, 192, 192);
+    margin-bottom: 25px;
+    
+}
+.home_figma .home-bts{
+    margin-left: 30px;
+}
+
+.home_figma .join-btn {
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid  rgb(138, 85, 208);
+}
+
+
+.home_figma .home-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.home_figma .home-link-1 {
+
+    text-decoration: none;
+    color: white;
+}
+.home_figma .home-bts .join-btn:hover {
+    background-color: rgb(138, 85, 208);
+    font-weight: 300;
+}
+
+/*courses*/
+
+.courses_figma {
+display: flex;
+justify-content: center;
+align-content:center ;
+padding: 100px 0 125px;
+
+}
+.courses_figma .courses_subt {
+    font-size: 16px;
+    color: rgb(138, 85, 208); ;
+}
+.courses_figma .courses_title {
+    font-weight: 800;
+}
+.courses_figma .courses_text {
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+.courses_figma .card_courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid ;
+    background: white;
+
+}
+
+
+.courses_figma .card_courses .ex_h3 {
+    color: black;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.courses_figma .card_courses .ex_para {
+    word-wrap: break-word; 
+    color: grey;
+}
+
+/*Popular Courses*/
+
+.popular_figma {
+    padding: 100px 0;
+
+}
+.popular_figma .popular_content {
+    margin-top: 130px;
+}
+.popular_figma .title_pop {
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.25;
+}
+.popular_figma .para_pop {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 350px;
+    margin: 25px 0;
+}
+.popular_figma .rule {
+    font-size: 0px;
+    color: rgb(232, 53, 21);
+}
+.popular_figma .popular_content .link_pop {
+    text-decoration: none;
+    color: rgb(138, 85, 208) ;
+    line-height: 1;
+}
+
+/*packages*/
+.packages_figma {
+    padding: 150px 0px;
+
+    
+    }
+    .packages_figma .pack_para {
+        font-size: 16px;
+        color: rgb(138, 85, 208); 
+        margin-bottom: 10px;
+    }
+    .packages_figma .pack_title {
+        font-weight: 800;
+        font-size: 38px;
+    }
+    .packages_figma .pack_text {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 70px;
+      
+    }
+    .packages_figma .sale-card {
+        border: 1px solid transparent;
+        color: white;
+        width: 60px;
+        background-color: orangered;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .packages_figma .pack-iheart {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        left: 25%;
+
+    }
+    .packages_figma .pack-icart {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        left: 43%;
+    
+    }
+    .packages_figma .pack-ieye {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        right: 25%;
+    }
+    .packages_figma .pack-card-1{
+        position: relative;
+        text-align: center;
+
+    }
+ 
+    .packages_figma .pack-card-2{
+        position: relative;
+        text-align: center;
+    }
+
+    .sale_img {
+        border: 1px solid red;
+    }
+
+    .packages_figma .pack-cards { 
+        display: flex;
+        flex-direction: column;
+
+    }
+    .packages_figma .pack-cards .inside-content {
+        background-color: white;
+        text-align: left;
+        padding: 20px;
+    }
+    .packages_figma .pack-cards .inside-content .pack-star {
+        border: 1px solid transparent;
+        background-color: navy;
+     
+        float: right;
+        width: fit-content;
+       border-radius: 25px;
+    }
+    .packages_figma .img-fluid {
+        width: 100%;
+     }
+    .packages_figma .pack-star .fas {
+        color: gold;
+    }
+    .packages_figma .pack-cards .inside-content .head_card {
+        color:  rgb(138, 85, 208) ;
+        font-weight: 550;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .packages_figma .pack-cards .inside-content .title_card {
+        font-size: 18px;
+        padding-top: 10px;
+        color: black;
+        font-weight: 650;
+    }
+    .packages_figma .pack-cards .inside-content .para_card {
+        font-size: 14px;
+        color: gray;
+        width: 250px;
+        font-weight: 400;
+    }
+
+    .packages_figma .pack-cards .inside-content .sale_card {
+        font-size: 14px;
+        padding-top: 5px;
+        color: gray;
+        width: 250px;
+        font-weight: 500;
+    }
+    .packages_figma .pack-cards .inside-content .price_card {
+        font-size: 16px;
+        padding-top: 5px;
+        color: rgb(155, 167, 179);
+        width: 250px;
+        font-weight: 500;
+    }
+    .packages_figma .pack-cards .inside-content .price_card span {
+        color: rgb(255, 102, 0);
+    }
+
+    .packages_figma .pack-cards .inside-content .learn-card {
+        width: 130px;
+        border-radius: 25px;
+        border: 1px solid rgb(138, 85, 208);
+        padding: 10px;
+    }
+    .packages_figma .pack-cards .inside-content .learn-card .card_link {
+        text-decoration: none;
+        color:  rgb(138, 85, 208);
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+ /*Most Popular PAckages*/
+ 
+ .mostpop_figma {
+     padding: 150px 0;
+    text-align: center;
+    
+    }
+    .mostpop_figma .mostpop_para {
+        font-size: 16px;
+        color: rgb(138, 85, 208); 
+    }
+    .mostpop_figma .mostpop_title {
+        font-weight: 800;
+    }
+    .mostpop_figma .mostpop_text {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .mostpop_figma .mostpop-card-1 {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid;
+        background-color: white;
+        padding: 10px 0px !important;
+
+    }
+    .mostpop_figma .mostpop-card-1 img {
+        border-radius: 50%;
+        padding: 20px;
+    }
+    .mostpop_figma  .cardsmp_text {
+        font-size: 14px;
+        font-weight: 500;
+        color: gray;
+
+    }
+    .mostpop_figma  .cardsmp_name{
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    .mostpop_figma .cardsmp_post { 
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(65, 64, 64);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+    } 
+
+    .mostpop_figma .mostpop-card-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid;
+        background-color: white;
+        padding: 10px 0px;
+
+    }
+    .mostpop_figma .mostpop-card-2 img {
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+
+
+
+
+    /*faq*/
+    .faq_figma { 
+        padding: 100px 0px;
+       }
+
+     .faq_figma .faq_title {
+        font-size: 35px;
+        font-weight: 800;
+     }
+
+     .faq_figma .faq_para {
+        font-size: 16px;
+        margin-bottom: 50px;
+     }
+
+     .faq_figma .dhyey {
+        display: flex;
+        justify-content: center;
+ 
+     }
+     .faq_figma .faq_figma1 {
+   
+        display: flex;
+        flex-direction: column;
+
+     }
+     .faq_figma .faq_figma2 {
+        display: flex;
+        flex-direction: column;
+
+     }
+     .faq_figma .faq_figma3 {
+        display: flex;
+        flex-direction: column;
+
+     }
+     .faq_figma .accordion-item {
+
+        padding: 25px;
+        margin: 25px;
+        border-radius: 10px;
+     }
+     .faq_figma .accordion-body {
+        color: black;
+     }
+
+
+
+
+
+    /*NewsLetter*/
+
+.newsletter_figma {
+    text-align: center;
+    padding: 100px 0;
+    
+    }
+    .newsletter_figma .news_subt {
+        font-size: 16px;
+        color: rgb(138, 85, 208); ;
+    }
+    .newsletter_figma .news_title {
+        font-weight: 800;
+    }
+    .newsletter_figma .news_text {
+        font-size: 14px;
+        margin-bottom: 70px;
+    }
+    .news_form {
+        display: flex;
+        justify-content: center;
+    }
+    .newsletter_figma input[type=text], select {
+        border: 1px solid transparent;
+        padding: 12px 10px 12px 15px;
+        width: 470px;
+        font-size: 14px;
+        border-radius: 5px 0 0 5px;
+    }
+    .btn-news {
+        padding: 12px 10px 12px 15px;
+        width: 120px;
+        font-size: 12px;
+        border-radius: 0 5px 5px 0;
+        border: 1px solid transparent;
+        background-color:rgb(138, 85, 208) ;
+        color: white;
+    }
+
+    /*Footer*/
+
+    .footer_figma {
+        padding: 50px 0;
+        background-color: white;
+        color: black;
+        align-items: center;
+    }
+
+    .footer_figma .box-1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+
+    .footer_figma .box-2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    .footer_figma  ul {
+        list-style-type: none;
+    }
+    .footer_figma  li {
+        color: gray;
+        font-size: 12px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+    .footer_figma .main_li {
+        color: black;
+        font-weight: 800;
+        font-size: 18px;
+    }
+     .credits_figma {
+        display: flex;
+        background-color: white;
+        
+    }
+    .credits_figma .cred_figma {
+        color: gray;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .credits_figma .credit_figma {
+        margin-left: 20px;
+    }
+   
+    .credits_figma .footer_social_media_icon {
+        padding-right: 25px;
+        font-size: 20px;
+        color: rgb(138, 85, 208);
+        
+    }
+    .credits_figma .social-icons {
+        text-align: end;
+         }
+    
+    .footer_figma .ul-end {
+        text-align: end;
+    }
+    .footer_figma .fa {
+        font-size: 18px;
+        color: rgb(138, 85, 208);
+        padding-right: 10px ;
+    }

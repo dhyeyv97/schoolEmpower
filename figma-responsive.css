@@ -1,0 +1,752 @@
+@media (max-width:1300px) {
+
+}
+@media (max-width:1230px) {
+    /*Home section*/
+.home_figma {
+    display: flex;
+    padding-bottom: 100px;
+   
+}
+.home_figma .invite-desc {
+    margin-top: 125px;
+}
+.home_figma .home_subtitle {
+    font-size: 14px;
+    padding: 0 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    
+}
+.home_figma .home_title {
+    font-size: 40px;
+    padding: 20px 40px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    width: 600px;
+}
+.home_figma .home_text {
+    font-size: 18px;
+    padding: 0 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 400px;
+    color: rgb(197, 192, 192);
+    margin-bottom: 25px;
+    
+}
+.home_figma .home-bts{
+    margin-left: 30px;
+}
+
+.home_figma .join-btn {
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid  rgb(138, 85, 208);
+}
+
+
+.home_figma .home-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.home_figma .home-link-1 {
+
+    text-decoration: none;
+    color: white;
+}
+.home_figma .home-bts .join-btn:hover {
+    background-color: rgb(138, 85, 208);
+    font-weight: 300;
+}
+
+
+    
+    .footer_figma .ul_flex li {
+        color: gray;
+        font-size: 12px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+    .footer_figma .ul_flex .main_li {
+        color: black;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+   
+    .footer_figma .footer_social_media_icon {
+        padding-right: 25px;
+        font-size: 20px;
+        color: rgb(138, 85, 208);
+    }
+    .footer_figma .ul-end {
+        text-align: end;
+    }
+    .footer_figma .fa {
+        font-size: 20px;
+        color: rgb(138, 85, 208);
+        padding-right: 10px ;
+    }
+
+
+
+}
+@media (max-width:1070px) {
+     /* 2 navbar*/
+     .header_wrapper .nav-item .nav-link {
+        font-size: 16px;
+       }
+    
+
+  }
+
+  @media (max-width:991px) {
+
+
+
+    .navbar_figma {
+        padding:0px;
+    }
+
+
+    .header_wrapper .navbar-toggler:focus {
+        box-shadow: none;
+       }
+    
+       .header_wrapper .menu-navbar-nav  {
+          text-align: center;
+       }
+       .header_wrapper .nav-item .nav-link {
+        font-size: 18px;
+        margin-top: 15px;
+       }
+       .header_wrapper .nav-item:last-child .nav-link {
+        margin-bottom: 20px;
+       }
+ 
+       .navbar_figma .navbar-collapse {
+        margin-top: 0px;
+        background: rgb(44, 54, 100) ;
+        padding: 10px;
+       }
+
+    .navbar_figma {
+        padding:0px;
+    }
+    .navbar_figma .nav_head {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+        line-height: 1.25;
+      
+    }
+    .navbar_figma .menu-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: gainsboro;
+        font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .navbar_figma .menu-bar .nav-link {
+        color: rgb(197, 192, 192);
+        padding: 10px;
+    
+    }
+    .navbar_figma .menu-bar .nav-high {
+        color: white;
+    }
+    
+    .navbar_figma .nav-extra {
+        display: block;
+        text-align: center;
+    }
+    .navbar_figma .nav-extra .nav-link {
+        color: rgb(197, 192, 192);
+        font-size: 30px;
+        width: auto;
+    
+    }
+    .navbar_figma .nav-extra .join-us-btn {
+        width: 150px;
+        height: 60px;
+        background-color: rgb(138, 85, 208);
+        border-radius: 5px;
+        border: 1px solid rgb(138, 85, 208);
+    }
+    .navbar_figma .nav-extra .nav-link-1 {
+        color: white;
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    .home_figma {
+        display: flex;
+        padding: 50px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_figma .invite-desc {
+        text-align: center;
+        margin-top: 125px;
+        margin-bottom: 120px;
+    }
+    .home_figma .home_subtitle {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.25;
+        
+        
+    }
+  
+    .home_figma .home_title {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 1.25;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .home_figma .home_text {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.25;
+        color: rgb(197, 192, 192);
+        margin-bottom: 50px;
+        margin:auto;
+    }
+    .home_figma .home-bts{
+       
+        margin:auto;
+        margin-top: 20px;
+        width: 300px;
+    }
+    
+    .home_figma .join-btn {
+        width: 120px;
+        height: 45px;
+        border-radius: 5px;
+        background: transparent;
+        margin-right: 10px;
+        border: 1px solid  rgb(138, 85, 208);
+    }
+    .courses_figma .courses_subt {
+        font-size: 16px;
+        color: rgb(138, 85, 208); ;
+    }
+    .courses_figma .courses_title {
+        font-weight: 800;
+    }
+    .courses_figma .courses_text {
+        font-size: 16px;
+        margin-bottom: 70px;
+    }
+    .popular_figma {
+        display: flex;
+        justify-content: center;
+
+        padding: 100px 0px;
+        align-items: center ;
+        text-align: center;
+    }
+    .popular_figma .row {
+        flex-direction: column-reverse;
+    }
+    .popular_figma .popular_img {
+        margin-top: 50px;
+    
+    }
+    .popular_figma .popular_content {
+        margin-top: 30px;
+    }
+    .popular_figma .title_pop {
+    
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 1;
+        width: auto;
+    
+    }
+    .popular_figma .para_pop {
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 20px;
+        text-align: center;
+        width: auto;
+    }
+    .popular_figma .link_pop  {
+        text-decoration: none;
+        color: rgb(245, 235, 235);
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .packages_figma .pack_para {
+        font-size: 16px;
+        color: rgb(138, 85, 208); 
+        margin-bottom: 10px;
+    }
+    .packages_figma .pack_title {
+        font-weight: 800;
+        font-size: 38px;
+    }
+    .packages_figma .pack_text {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 70px;
+      
+    }
+  
+    .packages_figma .img-fluid {
+        width: 100%;
+     }
+       
+    .footer_figma  li {
+        color: gray;
+        font-size: 10px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+    .footer_figma .main_li {
+        color: black;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .footer_figma .fa {
+        font-size: 10px;
+        color: rgb(138, 85, 208);
+        padding-right: 10px ;
+    }
+    .credits_figma .credit_figma {
+        margin-left: 20px;
+    }
+   
+    .credits_figma .footer_social_media_icon {
+        padding-right: 15px;
+        font-size: 15px;
+        color: rgb(138, 85, 208);
+        
+    }
+    .credits_figma .social-icons {
+        text-align: end;
+         }
+
+  
+}
+
+/*   767px  */
+  
+  @media (max-width:767px) {
+
+    .navbar_figma .nav_head {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+        line-height: 1.25;
+      
+    }
+    
+
+    .navbar_figma .navbar-collapse {
+        margin-top: 0px;
+        background: rgb(44, 54, 100) ;
+        padding: 10px;
+       }
+
+       .navbar_figma .nav-extra {
+        display: block;
+        text-align: center;
+       }
+
+    .home_figma .home_title {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1.25;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .home_figma .home_subtitle {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+    
+        
+    }
+    .home_figma .home_text {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.25;
+        color: rgb(197, 192, 192);
+        margin-bottom: 50px;
+        width: auto;
+    }
+    .courses_figma .card_courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0px;
+        text-align: center;
+        align-items: center;
+        border: 1px solid ;
+        background: white;
+    
+    }
+    .popular_figma .para_pop {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.25;
+        width: auto;
+        margin: 25px 0;
+    }
+    .popular_figma .popular_content .link_pop {
+        text-decoration: none;
+        color: rgb(138, 85, 208) ;
+        line-height: 1;
+        font-size: 18px;
+    }
+    .packages_figma .pack-cards .inside-content .para_card {
+        font-size: 14px;
+        color: gray;
+        font-weight: 400;
+        width: fit-content;
+    }
+    .packages_figma .pack-iheart {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        left: 23%;
+
+    }
+    .packages_figma .pack-icart {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        left: 41%;
+    
+    }
+    .packages_figma .pack-ieye {
+        border: 1px solid transparent;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        position: absolute;
+        bottom: 5%;
+        padding: 10px;
+        right: 23%;
+    }
+
+    .mostpop_figma  .cardsmp_text {
+        font-size: 12px;
+        font-weight: 500;
+        color: gray;
+
+    }
+    .faq_figma .accordion-item {
+
+        padding: 5px;
+        margin: 10px;
+        border-radius: 10px;
+     }
+
+     .footer_figma .ul-end {
+        text-align: start;
+    }
+      
+    .newsletter_figma input[type=text], select {
+        border: 1px solid transparent;
+        padding: 12px 10px 12px 15px;
+        width: 310px;
+        font-size: 14px;
+        border-radius: 5px 0 0 5px;
+    }
+    .btn-news {
+        padding: 12px 10px 12px 10px;
+        width: 90px;
+        font-size: 12px;
+        border-radius: 0 5px 5px 0;
+        border: 1px solid transparent;
+        background-color:rgb(138, 85, 208) ;
+        color: white;
+    }
+      
+    .credits_figma .footer_social_media_icon {
+        padding-right: 5px;
+        font-size: 10px;
+        color: rgb(138, 85, 208);
+        
+    }
+    .credits_figma .cred_figma {
+        color: gray;
+        font-size: 12px;
+        font-weight: 500;
+    }
+  }
+
+
+    @media (max-width:576px) {
+        html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.home_figma {
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_figma .nav_head {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+    line-height: 1.25;
+  
+} 
+
+   .navbar_figma .navbar-collapse {
+    margin-top: 0px;
+    background: rgb(44, 54, 100) ;
+    padding: 10px;
+   }
+
+   .navbar_figma .nav-extra {
+    display: block;
+    text-align: center;
+   }
+
+.navbar_figma .menu-bar {
+    display: flex;
+    justify-content: center;
+    color: gainsboro;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+.navbar_figma .nav-extra .nav-link {
+    color: rgb(197, 192, 192);
+    font-size: 25px;
+
+}
+.navbar_figma .nav-extra .join-us-btn {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(138, 85, 208);
+    border-radius: 5px;
+    border: 1px solid rgb(138, 85, 208);
+}
+.navbar_figma .nav-extra .nav-link-1 {
+    color: white;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.home_figma .home_title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1;
+    width: auto;
+}
+.home_figma .home_subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.25;
+    
+}
+
+.home_figma .home_text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25;
+    color: rgb(197, 192, 192);
+    margin-bottom: 25px;
+    
+}
+
+.courses_figma .courses_subt {
+    font-size: 16px;
+    color: rgb(138, 85, 208); ;
+}
+.courses_figma .courses_title {
+    font-size: 35px;
+    font-weight: 800;
+}
+.courses_figma .courses_text {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 70px;
+}  
+
+.popular_figma .title_pop {
+
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.25;
+    width: auto;
+}
+.popular_figma .para_pop {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 25px 0;
+}
+
+
+.packages_figma .pack_para {
+    font-size: 16px;
+    color: rgb(138, 85, 208); 
+    margin-bottom: 10px;
+}
+.packages_figma .pack_title {
+    font-weight: 800;
+    text-align: center;
+    font-size: 35px;
+}
+.packages_figma .pack_text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 70px;
+  
+}
+.mostpop_figma .mostpop_para {
+    font-size: 16px;
+    color: rgb(138, 85, 208); 
+}
+.mostpop_figma .mostpop_title {
+    font-weight: 800;
+    font-size: 35px;
+}
+.mostpop_figma .mostpop_text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.newsletter_figma .news_subt {
+    font-size: 16px;
+    color: rgb(138, 85, 208); ;
+}
+.newsletter_figma .news_title {
+    font-weight: 800;
+    width: auto;
+    font-size: 35px;
+}
+.newsletter_figma .news_text { 
+    font-size: 16px;
+    margin-bottom: 70px;
+    width: auto;
+}
+
+
+.newsletter_figma input[type=text], select {
+    border: 1px solid transparent;
+    padding: 12px 10px 12px 15px;
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-news {
+    padding: 12px 10px 12px 12px;
+    width:fit-content;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid transparent;
+    background-color:rgb(138, 85, 208) ;
+    color: white;
+    text-align: center;
+}
+.credits_figma .social-icons {
+    text-align: none;
+     }
+     .credits_figma .cred_figma {
+        color: gray;
+        font-size: 12px;
+        font-weight: 500;
+    }
+ .footer_figma .main-fig {
+    width: auto;
+ }
+ .faq_figma .dhyey {
+    display: inline;
+
+
+ }
+ .faq_figma .faq_figma1 {
+
+display: block;
+
+ }
+ .faq_figma .faq_figma2 {
+display: block;
+
+ }
+ .faq_figma .faq_figma3 {
+display: block;
+
+ }
+ .faq_figma .accordion-item {
+
+margin-bottom: 5px;
+ width: auto;
+    border-radius: 10px;
+ }
+ .footer_figma {
+    padding: 50px 0;
+    background-color: white;
+    color: black;
+    align-items: center;
+    width: auto;
+}
+
+
+ .credits_figma {
+    display: flex;
+    background-color: white;
+    
+}
+.credits_figma .cred_figma {
+    color: gray;
+    font-size: 12px;
+    width: auto;
+    text-align: center;
+    font-weight: 500;
+}
+.credits_figma .credit_figma {
+    margin-left: 20px;
+}
+
+.credits_figma .footer_social_media_icon {
+    padding-right: 15px;
+    font-size: 15px;
+    color: rgb(138, 85, 208);
+    
+}
+.credits_figma .social-icons {
+    text-align: center;
+     }
+    }
